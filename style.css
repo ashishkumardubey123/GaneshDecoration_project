@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Noto+Sans&family=Noto+Sans+Nag+Mundari:wght@500&family=Poppins:ital,wght@1,600&family=Wix+Madefor+Text&display=swap');
+
+body{
+    background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
+    background-position: center center;
+  }
+ .wrapper{
+   
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Alice', serif;
+    position: relative;
+    color: rgb(109, 28, 184);
+  
+
+
+  }
+
+.button{
+
+   display: flex;
+
+   flex-direction: row;
+
+
+
+
+}
+button:hover{
+    color: white ;
+  
+    /* global 94%+ browsers support */
+
+  
+    background: linear-gradient(90deg, rgba(238, 130, 238, 1) 13%, rgba(0, 0, 255, 1) 86%);
+    transform: translateX(20px);
+
+
+}
+.chlick{
+
+
+     display: flex;
+
+     flex-wrap: wrap
+     ;
+     position: relative;
+
+     justify-content: center;
+     align-items: center;
+     left: 50px;
+     transition: 0.5s all ease-in;
+
+
+}
+button{
+
+   display: flex;
+   flex-direction:row ;
+   justify-content: space-evenly;
+   align-items: center;
+   font-size: larger;
+   color: rgb(11, 71, 154);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px ;
+
+    transition: 0.5s all ease-in;
+
+}
+
+
+#icons, input.icons{
+
+    /* color: rebeccapurple; */
+    font-size: larger;
+    font-family: 'alice';
+    font-weight: bold;
+  
+}
+#icons:hover{
+
+    color: white;
+
+}
+input.icons{
+   
+width: 20px;
+height: 20px;
+ 
+
+}
+
+
